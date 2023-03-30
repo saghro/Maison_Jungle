@@ -1,9 +1,14 @@
-import React from 'react'
+import logo from '../assets/logo.png'
+import '../styles/Banner.css'
 
 function Banner() {
 	const title = 'La maison jungle'
-	return <h1>{title}🍀</h1>
+	return (
+		<div className='lmj-banner'>
+			<img src={logo} alt='La maisonjungle' className='lmj-logo' />
+			<h1 className='lmj-title'>{title}</h1>
+		</div>
+	)
 }
 
 export default Banner
-
