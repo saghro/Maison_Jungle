@@ -1,10 +1,9 @@
 import React from 'react'
 
- function Banner() {
-  return (
-    <div>
-      <h1> La Maison Jungle🍀</h1>
-    </div>
-  )
+function Banner() {
+	const title = 'La maison jungle'
+	return <h1>{title}🍀</h1>
 }
-export default Banner;
+
+export default Banner
+
